@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* This is a Elements(Name) Selectors */
+            p{
+                color: red;
+                border: 2px solid pink;
+
+            }
+            /* This is ID(#) Selectors */
+            #redElements{
+                color: blue;
+            }
+            /* This is Class(.) Selectors */
+            .redBg{
+                color: blueviolet;
+                background-color: aqua;
+            }
+            /* This is Combined Grouping Selectors */
+            footer, span{
+                background-color: chartreuse;
+            }
+    </style>
+</head>
+<body>
+    <h3><center>CSS Selectors...</center></h3>
+    <hr>
+    <br>
+    <!-- Example of Elements(Name) Selectors -->
+    <p>This is a simple paragraph to demonstract CSS selectors...</p>
+    <!-- Example of ID(#) Selectors -->
+    <p id="redElements">This is another simple paragraph to demonstract CSS selectors...</p>
+    <div>
+        <p>This is yet simple paragraph inside div to demonstract CSS selectors...</p>
+    </div>
+    <!-- Example of Class(.) Selectors -->
+    <div>
+        <p id="SecondPara" class="redBg bgblue">This is a one of the simple paragraph to demonstract CSS selectors...</p>
+    </div>
+    <!-- Example of Group Selectors -->
+    <div>
+        <footer>This is footer tag in HTML</footer>
+        <span>This is span tag in HTML</span>
+    </div>
+</body>
+</html>
